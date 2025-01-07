@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "chrono": "cpp"
+    },
+    "cmake.sourceDirectory": "/workspaces/test_c/image_filter/opencv"
+}

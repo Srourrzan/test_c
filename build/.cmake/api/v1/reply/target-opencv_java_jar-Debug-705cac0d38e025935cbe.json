@@ -1,0 +1,109 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"add_jar",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-3.16/Modules/UseJava.cmake",
+			"modules/java/jar/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 682,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "opencv_java_jar_sources::@4dcf6ca1303fc5f2ef6e"
+		}
+	],
+	"id" : "opencv_java_jar::@4dcf6ca1303fc5f2ef6e",
+	"name" : "opencv_java_jar",
+	"paths" : 
+	{
+		"build" : "modules/java/jar",
+		"source" : "modules/java/jar"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/workspaces/test_c/build/modules/java/jar/CMakeFiles/opencv_java_jar",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/test_c/build/modules/java/jar/CMakeFiles/opencv_java_jar.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/test_c/build/bin/opencv-4110.jar.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/test_c/build/modules/java/jar/CMakeFiles/opencv_java_jar.dir/java_class_filelist.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/test_c/build/modules/java/jar/CMakeFiles/opencv_java_jar.dir/java_compiled_opencv_java_jar.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

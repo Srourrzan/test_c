@@ -1,0 +1,927 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libopencv_java4110.so"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ocv_add_library",
+			"install",
+			"ocv_install_target",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_dependencies",
+			"add_definitions",
+			"ocv_add_module",
+			"include_directories",
+			"ocv_include_directories",
+			"include",
+			"target_include_directories",
+			"ocv_target_include_directories",
+			"ocv_target_include_modules"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"modules/java/jni/CMakeLists.txt",
+			"modules/java/jar/CMakeLists.txt",
+			"cmake/OpenCVModule.cmake",
+			"modules/java/CMakeLists.txt",
+			"cmake/OpenCVFindLibsPerf.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1586,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1241,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1525,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1495,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 9
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 16,
+				"parent" : 11
+			},
+			{
+				"command" : 8,
+				"file" : 3,
+				"line" : 217,
+				"parent" : 12
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 12,
+				"file" : 6,
+				"line" : 800,
+				"parent" : 14
+			},
+			{
+				"file" : 5,
+				"parent" : 15
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 19,
+				"parent" : 16
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 17
+			},
+			{
+				"command" : 11,
+				"file" : 5,
+				"line" : 16,
+				"parent" : 16
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 319,
+				"parent" : 19
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 33
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 35
+			},
+			{
+				"command" : 15,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 0
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 38
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 40
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 42
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 44
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 46
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 48
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 50
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 52
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 54
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 56
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 58
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 60
+			},
+			{
+				"command" : 14,
+				"file" : 3,
+				"line" : 728,
+				"parent" : 37
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 382,
+				"parent" : 62
+			},
+			{
+				"command" : 11,
+				"file" : 6,
+				"line" : 627,
+				"parent" : 14
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 64
+			},
+			{
+				"command" : 14,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 390,
+				"parent" : 66
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Wsuggest-override -Wno-delete-non-virtual-dtor -Wno-comment -Wimplicit-fallthrough=3 -Wno-strict-overflow -fdiagnostics-show-option -pthread -fomit-frame-pointer -ffunction-sections -fdata-sections  -msse3 -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated-declarations -g  -O0 -DDEBUG -D_DEBUG -fPIC  "
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 18,
+					"path" : "/workspaces/test_c/build/3rdparty/ippicv/ippicv_lnx/icv/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/workspaces/test_c/build/3rdparty/ippicv/ippicv_lnx/iw/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/core/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/imgproc/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/ml/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/photo/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/dnn/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/features2d/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/imgcodecs/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/videoio/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/calib3d/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/highgui/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/objdetect/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/video/misc/java/src/cpp"
+				},
+				{
+					"backtrace" : 34,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/java/generator/src/cpp"
+				},
+				{
+					"backtrace" : 36,
+					"path" : "/workspaces/test_c/build/modules/java_bindings_generator/gen/cpp"
+				},
+				{
+					"backtrace" : 39,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/flann/include"
+				},
+				{
+					"backtrace" : 43,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 45,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/ml/include"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/photo/include"
+				},
+				{
+					"backtrace" : 49,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/dnn/include"
+				},
+				{
+					"backtrace" : 51,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/features2d/include"
+				},
+				{
+					"backtrace" : 53,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/imgcodecs/include"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/videoio/include"
+				},
+				{
+					"backtrace" : 57,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/calib3d/include"
+				},
+				{
+					"backtrace" : 59,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/highgui/include"
+				},
+				{
+					"backtrace" : 61,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/objdetect/include"
+				},
+				{
+					"backtrace" : 63,
+					"path" : "/workspaces/test_c/image_filter/opencv/modules/video/include"
+				},
+				{
+					"backtrace" : 65,
+					"isSystem" : true,
+					"path" : "/workspaces/test_c/build"
+				},
+				{
+					"backtrace" : 67,
+					"isSystem" : true,
+					"path" : "/usr/local/sdkman/candidates/java/current/include"
+				},
+				{
+					"backtrace" : 67,
+					"isSystem" : true,
+					"path" : "/usr/local/sdkman/candidates/java/current/include/linux"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				14
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "ippiw::@5f1c6d7264a9a7781a27"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_core::@90e83aff1e86c0750a9d"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_flann::@b7c07563ccf30005c216"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_imgproc::@46089d46ac6964f10538"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_ml::@b79385d0caec563eb03e"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_photo::@7fc8438b288b9566f339"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_dnn::@9bfb28f21a1ab2b0c462"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_features2d::@4f2b1ecb2cf869bde395"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_imgcodecs::@e5f64ca75d8a3efadfa0"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_videoio::@368e281a2b3422cd0411"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_calib3d::@e8558e004ddb3d41eff9"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_highgui::@eec24f45586c5b1a2074"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_objdetect::@7f5df5b9e7e68549eda2"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "opencv_video::@08df6c0062966df3c8f9"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "gen_opencv_java_source::@deb7f4639ccaf84f30ce"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_java_jar::@4dcf6ca1303fc5f2ef6e"
+		}
+	],
+	"id" : "opencv_java::@028d4361fc086669ca15",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "share/java/opencv4"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--gc-sections -Wl,--as-needed -Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/workspaces/test_c/build/lib:",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_ml.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_photo.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_highgui.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_objdetect.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_video.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lrt",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../../../3rdparty/lib/libippiw.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "../../../3rdparty/ippicv/ippicv_lnx/icv/lib/intel64/libippicv.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_videoio.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_imgcodecs.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_dnn.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_calib3d.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_features2d.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_flann.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_imgproc.so.4.11.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "../../../lib/libopencv_core.so.4.11.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_java",
+	"nameOnDisk" : "libopencv_java4110.so",
+	"paths" : 
+	{
+		"build" : "modules/java/jni",
+		"source" : "modules/java/jni"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				11,
+				13,
+				15
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				12,
+				14
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"path" : "modules/java/generator/src/cpp/common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "modules/java/generator/src/cpp/converters.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "modules/java/generator/src/cpp/listconverters.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "modules/java/generator/src/cpp/opencv_java.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/java/generator/src/cpp/Mat.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/java/generator/src/cpp/converters.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/java/generator/src/cpp/jni_part.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/java/generator/src/cpp/listconverters.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/java/generator/src/cpp/opencv_java.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/java/generator/src/cpp/utils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/core/misc/java/src/cpp/core_manual.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "modules/core/misc/java/src/cpp/core_manual.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/dnn/misc/java/src/cpp/dnn_converters.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "modules/dnn/misc/java/src/cpp/dnn_converters.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "modules/features2d/misc/java/src/cpp/features2d_converters.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "modules/features2d/misc/java/src/cpp/features2d_converters.hpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

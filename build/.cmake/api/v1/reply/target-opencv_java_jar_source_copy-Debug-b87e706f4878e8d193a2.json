@@ -1,0 +1,87 @@
+{
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"ocv_copyfiles_add_target"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"modules/java/jar/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1962,
+				"parent" : 1
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "gen_opencv_java_source::@deb7f4639ccaf84f30ce"
+		}
+	],
+	"id" : "opencv_java_jar_source_copy::@4dcf6ca1303fc5f2ef6e",
+	"name" : "opencv_java_jar_source_copy",
+	"paths" : 
+	{
+		"build" : "modules/java/jar",
+		"source" : "modules/java/jar"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"isGenerated" : true,
+			"path" : "/workspaces/test_c/build/modules/java/jar/CMakeFiles/opencv_java_jar_source_copy",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/test_c/build/modules/java/jar/CMakeFiles/opencv_java_jar_source_copy.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/test_c/build/CMakeFiles/dephelper/opencv_java_jar_source_copy.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

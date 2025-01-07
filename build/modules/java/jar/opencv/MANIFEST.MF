@@ -1,0 +1,5 @@
+Specification-Title: OpenCV
+Specification-Version: 4.11.0-pre
+Implementation-Title: OpenCV
+Implementation-Version: 4.10.0-533-gff18c9cc79
+Implementation-Date: 
